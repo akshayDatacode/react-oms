@@ -2,14 +2,16 @@ import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll"
 
-const SideDrawer = () => {
+const SideDrawer = ({
+  show
+}) => {
   const location = useLocation()
 
   useEffect(() => {
   }, [location])
 
   let drawerClasses = "side-drawer";
-  if (this.props.show) {
+  if (show) {
     drawerClasses = "side-drawer open";
   }
 
