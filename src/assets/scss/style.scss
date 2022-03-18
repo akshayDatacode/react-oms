@@ -1,0 +1,18 @@
+.process-section {
+  ul {
+    li {
+      margin: 30px 20px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .process-section {
+    ul {
+      padding: 0;
+      li {
+        margin: 30px 10px;
+      }
+    }
+  }
+}

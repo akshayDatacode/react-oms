@@ -24,21 +24,21 @@ const SideDrawer = ({
               <i className="mr-2" /> Home
             </Link>
           </li>
-          {
-            window.location.hash === '#/' &&
-            <>
-              <li>
-                <LinkScroll to="aboutus" spy={true} smooth={true}>
-                  About Us
-                </LinkScroll>
-              </li>
-              <li>
-                <LinkScroll to="service" spy={true} smooth={true}>
-                  Service
-                </LinkScroll>
-              </li>
-            </>
-          }
+          <li>
+            <Link to="/aboutus" spy={true} smooth={true}>
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link to="/process" spy={true} smooth={true}>
+              Process
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" spy={true} smooth={true}>
+              Contact Us
+            </Link>
+          </li>
           <li>
             <Link to="/blog">
               <i className="mr-2" /> Blogs
