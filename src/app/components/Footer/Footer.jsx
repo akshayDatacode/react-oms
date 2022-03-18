@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
-      <div className="row mx-0">
-        <div className="col-12 p-5 border">
-          <h1>Footer</h1>
+      <div className="row mx-0 bg-dark">
+        <div className="col-12 p-5 text-light">
+          <p className='text-center'>Made with <i className="fal fa-heart text-danger" /> by datacode team</p>
         </div>
       </div>
     </>
