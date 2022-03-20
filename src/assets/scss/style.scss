@@ -6,6 +6,20 @@
   }
 }
 
+.service-card {
+  h6 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+  }
+}
+
+.active {
+  font-weight: 600;
+  color: #058be4;
+}
+
 @media (max-width: 767px) {
   .process-section {
     ul {

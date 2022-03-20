@@ -25,9 +25,9 @@ const Home = () => {
             </div>
           </div>
           <div className='row my-5 mx-0 services-section'>
-            <div className="col-12 py-5 text-center">
-              <h1>Our Services</h1>
-              <p>While we have done jobs as far as Los Angeles, we most frequently work in Fairfield & Westchester Counties and New York City.  Click here to see some of our previous projects.</p>
+            <div className="col-12 py-5">
+              <h1 className='text-center'>Our Services</h1>
+              <p className='text-center'>While we have done jobs as far as Los Angeles, we most frequently work in Fairfield & Westchester Counties and New York City.  Click here to see some of our previous projects.</p>
               <Services />
             </div>
           </div>
