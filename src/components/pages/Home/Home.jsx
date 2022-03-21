@@ -5,10 +5,10 @@ const Home = () => {
 
   return (
     <>
-      <div className='row mx-0'>
+      <div className='row mx-0 my-md-5 my-3'>
         <div className="col-12">
           <img
-            className="card-img-top mx-auto img-fluid img-circle d-block"
+            className="card-img mx-auto img-fluid img-circle d-block"
             src={require("../../../assets/images/hero.png")}
             alt="avatar"
           />

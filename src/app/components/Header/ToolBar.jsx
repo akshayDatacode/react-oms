@@ -36,27 +36,37 @@ const ToolBar = ({ drawerClickHandler }) => {
             <ul>
               <li>
                 <Link to="/">
-                  <i className="mr-2" /> Home
+                  <span className={location.pathname === '/' && 'active border-bottom pb-2'}>
+                    <i class="far fa-home-alt me-2" />Home
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link to="/aboutus" spy={true} smooth={true}>
-                  About Us
+                  <span className={location.pathname === '/aboutus' && 'active border-bottom pb-2'}>
+                    <i className="far fa-users me-2" />About Us
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link to="/process" spy={true} smooth={true}>
-                  Process
+                  <span className={location.pathname === '/process' && 'active border-bottom pb-2'}>
+                    <i className="far fa-boxes-alt me-2" />Process
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link to="/contact" spy={true} smooth={true}>
-                  Contact Us
+                  <span className={location.pathname === '/contact' && 'active border-bottom pb-2'}>
+                    <i class="far fa-hand-heart me-2" />Contact Us
+                  </span>
                 </Link>
               </li>
               <li>
                 <Link to="/blog">
-                  <i className="mr-2" /> Blogs
+                  <span className={location.pathname === '/blog' && 'active border-bottom pb-2'}>
+                    <i className="far fa-file-invoice me-2" />Blogs
+                  </span>
                 </Link>
               </li>
               {/* <li>

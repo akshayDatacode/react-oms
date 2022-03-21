@@ -23,7 +23,7 @@ const Services = () => {
             servicesTypes && servicesTypes.map((item, i) => (
               <div key={i} className="my-5">
                 <div onClick={() => toggle(i)} className="d-flex justify-content-between border-bottom pb-3">
-                  <h3 className={`text-left ${activeTable === i && 'active'}`}>{item.name}</h3>
+                  <h4 className={`text-left ${activeTable === i && 'active'}`}>{item.name}</h4>
                   {
                     activeTable === i ?
                       <i className="fas fa-minus" />
@@ -36,7 +36,7 @@ const Services = () => {
                   <div className="row mx-0 d-flex">
                     {
                       item.types && item.types.map((elem, j) => (
-                        <div key={j} className="col-6 p-0">
+                        <div key={j} className="col-md-6 col-12 p-0">
                           <ServiceCard title={elem.title} img={elem.img} />
                         </div>
                       ))

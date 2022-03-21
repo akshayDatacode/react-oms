@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Link as LinkScroll } from "react-scroll"
 
 const SideDrawer = ({
-  show
+  show,
+  drawerClickHandler
 }) => {
   const location = useLocation()
 
@@ -20,28 +20,38 @@ const SideDrawer = ({
       <nav className={drawerClasses}>
         <ul>
           <li>
-            <Link to="/">
-              <i className="mr-2" /> Home
+            <Link to="/" onClick={() => drawerClickHandler()}>
+              <span className={location.pathname === '/' && 'active border-bottom pb-2'}>
+                <i class="far fa-home-alt me-2" />Home
+              </span>
             </Link>
           </li>
           <li>
-            <Link to="/aboutus" spy={true} smooth={true}>
-              About Us
+            <Link to="/aboutus" onClick={() => drawerClickHandler()}>
+              <span className={location.pathname === '/aboutus' && 'active border-bottom pb-2'}>
+                <i className="far fa-users me-2" />About Us
+              </span>
             </Link>
           </li>
           <li>
-            <Link to="/process" spy={true} smooth={true}>
-              Process
+            <Link to="/process" onClick={() => drawerClickHandler()}>
+              <span className={location.pathname === '/process' && 'active border-bottom pb-2'}>
+                <i className="far fa-boxes-alt me-2" />Process
+              </span>
             </Link>
           </li>
           <li>
-            <Link to="/contact" spy={true} smooth={true}>
-              Contact Us
+            <Link to="/contact" onClick={() => drawerClickHandler()}>
+              <span className={location.pathname === '/contact' && 'active border-bottom pb-2'}>
+                <i class="far fa-hand-heart me-2" />Contact Us
+              </span>
             </Link>
           </li>
           <li>
-            <Link to="/blog">
-              <i className="mr-2" /> Blogs
+            <Link to="/blog" onClick={() => drawerClickHandler()}>
+              <span className={location.pathname === '/blog' && 'active border-bottom pb-2'}>
+                <i className="far fa-file-invoice me-2" />Blogs
+              </span>
             </Link>
           </li>
           {/* <li>

@@ -26,6 +26,8 @@
 
 .side-drawer li {
   margin: 0;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
 
 .side-drawer a:hover,

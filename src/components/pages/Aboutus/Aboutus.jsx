@@ -4,8 +4,8 @@ const Aboutus = () => {
   return (
     <>
       <div className="row mx-0 ">
-        <div className="col-12 my-5">
-          <div className="my-5">
+        <div className="col-12 my-md-5 my-2">
+          <div className="my-md-5 my-2">
             <h1 className='my-3'>Who We Are?</h1>
             <p>
               Since we’re all so busy these days, who has free time to allocate to organizing? We do!

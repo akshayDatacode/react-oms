@@ -3,9 +3,9 @@ import React from 'react'
 const Process = () => {
   return (
     <>
-      <div className="row mx-0 my-5">
+      <div className="row mx-0 my-md-5 my-2">
         <div className="col-12">
-          <h1>Process Page</h1>
+          <h1 className='my-md-5 my-2'>Process</h1>
           <p>
             As a Stylist, this is a big one for me. When I’m going through a client’s wardrobe, we’re not in there
             for the sole purpose of decluttering. There are other factors at play, we’re building a style and finding

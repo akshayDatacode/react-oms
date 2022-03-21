@@ -28,7 +28,7 @@ class Header extends Component {
     return (
       <>
         <ToolBar drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawer show={this.state.sideDrawerOpen} />
+        <SideDrawer drawerClickHandler={this.drawerToggleClickHandler} show={this.state.sideDrawerOpen} />
         {backDrop};
       </>
     );
