@@ -26,7 +26,9 @@ const ToolBar = ({ drawerClickHandler }) => {
                 src={require("../../assets/images/wow_logo.png")}
                 alt="First slide"
               /> */}
-            LOGO
+            <Link to='/'>
+              <h6 className="text-dark">LOGO</h6>
+            </Link>
           </div>
           {/* This is for Logo and Nev Spaccing */}
           <div className="logo-nev-spacer" />
