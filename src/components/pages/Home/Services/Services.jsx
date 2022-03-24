@@ -32,8 +32,8 @@ const Services = () => {
                       src={require(`../../../../assets/images/${item.img}`)}
                       alt="avatar"
                     />
-                    <div className="">
-                      <h4 className={`mx-3 mb-0 text-left ${activeTable === i && 'active'}`}>{item.name}</h4>
+                    <div className="px-md-4 px-0 mt-3 mt-md-0">
+                      <h4 className={`mb-0 text-left ${activeTable === i && 'active'}`}>{item.name}</h4>
                       <p className='my-2'>{item.description}</p>
                     </div>
                   </div>
