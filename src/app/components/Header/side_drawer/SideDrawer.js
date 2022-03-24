@@ -34,13 +34,6 @@ const SideDrawer = ({
             </Link>
           </li>
           <li>
-            <Link to="/process" onClick={() => drawerClickHandler()}>
-              <span className={location.pathname === '/process' && 'active border-bottom pb-2'}>
-                <i className="far fa-boxes-alt me-2" />Process
-              </span>
-            </Link>
-          </li>
-          <li>
             <Link to="/contact" onClick={() => drawerClickHandler()}>
               <span className={location.pathname === '/contact' && 'active border-bottom pb-2'}>
                 <i class="far fa-hand-heart me-2" />Contact Us

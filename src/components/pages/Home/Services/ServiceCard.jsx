@@ -13,6 +13,8 @@ const ServiceCard = ({
               className="card-img-top mx-auto img-fluid img-circle d-block"
               src={require(`../../../../assets/images/${img}`)}
               alt="avatar"
+              height='300px'
+              width='300px'
             />
             <div className="border rounded-bottom p-md-4 p-3">
               <h6>{title}</h6>

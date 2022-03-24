@@ -3,13 +3,14 @@ import React from 'react'
 const BlogPost1 = () => {
   return (
     <div className='row mx-0 justify-content-center'>
-      <div className="col-md-8 col-12">
-        <h1 className='my-5'>How do you know when your wardrobe needs to be organized?</h1>
+      <div className="col-md-8 col-12 my-5">
+        <h1 className='my-5'>Benefits of having an Organized Wardrobe</h1>
         <img
           className="card-img mx-auto my-5 img-fluid img-circle d-block"
-          src={require("../../../assets/images/hero.png")}
+          src={require("../../../assets/images/blog1-header.png")}
           alt="avatar"
         />
+        <h5>When does your wardrobe need to be organized?</h5>
         <ul>
           <li>
             When your wardrobe or its contents start to make you feel any kind of negativity, frustration,
@@ -79,6 +80,42 @@ const BlogPost1 = () => {
             Think outside the box depending on the space you have - jeans work well in drawers folded as
             well as on shelves or hung, so look at the space you have as the ratio of rail compared to
             drawers and shelves determines what lives where.
+          </li>
+        </ul>
+        <h5>Effective to Organize your Wardrobe</h5>
+        <ul>
+          <li>
+            Matching hangers give your clothes a uniform look and you are more likely to replace things
+            neatly and keep up the organization if you have them.
+          </li>
+          <li>
+            Slim, multi hangers make room for more clothes and stop items from slipping off.
+          </li>
+          <li>
+            Wooden hangers make the wardrobe look a little more sophisticated and neater
+          </li>
+          <li>
+            You may find a few items that were hung would give you more space if they were folded, and
+            vice versa.
+          </li>
+          <li>
+            Think outside the box depending on the space you have –
+            <ul>
+              <li>
+                Jeans work well in drawers folded as well as on shelves or hung, so look at the space
+                you have as the ratio of rail compared to drawers and shelves determines what lives
+                where.
+              </li>
+              <li>
+                For lingerie
+              </li>
+              <li>Use small compartmentalized tray/ boxes to keep them organized</li>
+              <li>1 hanger can solve the problem of at least 5 shawls</li>
+              <li>Your bags, Ohhh yeah, we have a solution for keeping your expensive clutches and
+                bags safe Mesh wall racks and Divide clutch organizers can make your life easy and
+                keep your worries at the bay.
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

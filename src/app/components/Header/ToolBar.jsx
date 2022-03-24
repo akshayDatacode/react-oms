@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Link as LinkScroll } from "react-scroll"
 import DrawerToggleButton from "./side_drawer/DrawerToggleButton";
 //import fire from "../../config/fire";
 
@@ -45,13 +44,6 @@ const ToolBar = ({ drawerClickHandler }) => {
                 <Link to="/aboutus" spy={true} smooth={true}>
                   <span className={location.pathname === '/aboutus' && 'active border-bottom pb-2'}>
                     <i className="far fa-users me-2" />About Us
-                  </span>
-                </Link>
-              </li>
-              <li>
-                <Link to="/process" spy={true} smooth={true}>
-                  <span className={location.pathname === '/process' && 'active border-bottom pb-2'}>
-                    <i className="far fa-boxes-alt me-2" />Process
                   </span>
                 </Link>
               </li>

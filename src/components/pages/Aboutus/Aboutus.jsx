@@ -5,47 +5,62 @@ const Aboutus = () => {
     <>
       <div className="row mx-0 ">
         <div className="col-12 my-md-5 my-2">
+          <img
+            className="card-img mx-auto img-fluid img-circle d-block"
+            src={require("../../../assets/images/aboutus.png")}
+            alt="avatar"
+          />
           <div className="my-md-5 my-2">
-            <h1 className='my-3'>Who We Are?</h1>
+            <h1 className='my-4 border-bottom pb-3'>Who We Are?</h1>
             <p>
-              Since we’re all so busy these days, who has free time to allocate to organizing? We do!
-              In our mission to create a functional and aesthetic balance, we bring out the potential in our clients’
-              under-utilized, and often out of control, wardrobe and storage spaces.
+              In our busy schedule, we don’t find time to de-clutter or organize our
+              wardrobes, at such times you can think of us!
             </p>
             <p>
-              Through this process of
-              organization, our aim is to bring calmness to the chaos of everyday life. With the versatility to design
-              spaces that range from feminine to masculine, classic to cutting-edge, we can ensure each client feels
-              as if they have a dream boutique in their very own home.
+              Tidy Wardrobe is an organization, based in Mumbai dedicated to decluttering, organizing,
+              and styling home spaces to leave them with an abode that they will love. We organize with
+              the intent of creating something innovative, elegant, and beautiful. We truly believe that an
+              organized house allows you to breathe a little easier and leaves a little more space in your
+              mind for what matters.
             </p>
             <p>
-              We always try to keep things organized and make our space clean, no matter how much we tidy it,
-              always ends up as clutter. And, with lockdown slowly coming to a close, what better time to do
-              something about it? Not only your place will look nicer, but you&#39;ll feel better about it.
-              Our dedicated team is always up to supply, install and maintain your plants &amp; restyle your balcony,
-              terrace, and Commercial interior Space such as corporate offices, Tech Parks &amp; campuses, co-
-              working office buildings, malls &amp; retail centres, hotels, hospitals, and educational establishments.
-              We just don’t keep the plants to your place; we transform interior spaces into lively spaces.
-              Our mission is to help reduce the stress associated with facing disorganization, and to implement
-              functional, lasting systems that improve the quality of your daily life.</p>
+              <b>In our mission</b> to create a functional and aesthetic balance, we bring out the potential in our
+              client’s under-utilized, and often out of control, wardrobe, kitchen, and storage spaces.
+              Through this process of organizing, we aim to bring calmness to the chaos of everyday life.
+            </p>
+            <p>
+              You always try to keep things in place and make your spaces clean, but no matter how much
+              we tidy them, always end up in clutter. And, now with lockdown slowly coming to a close,
+              what better time to do something about it? Not only your place will look nicer, you will find
+              things faster and also feel better about it.
+            </p>
+            <h6>
+              Our mission is to help reduce the stress associated with facing disorganization and to
+              implement functional, lasting systems that improve the quality of your daily life.
+            </h6>
           </div>
           <div className="">
-            <h1>Our Story</h1>
+            <h1 className='border-bottom pb-3 my-4'>Our Story</h1>
             <p>
-              It all started in 2020. Our founder, Reenaa Aroraa &amp; her mother-in-law, were exhausted by the sheer
-              amount of waste, clutter, and mess they used to clean during the lockdown. The thought of doing
-              something which can reduce the clutter and make the space clean and calm came while organizing
-              their house. This hard work, Innovative ideas, dedication towards organizing wardrobes, and tidying
-              up has brought us to start our own…………….
+              It all started in 2020. Our founders, Reenaa Aroraa &amp; Renuka Arora, were exhausted by the
+              amount of waste, clutter, and mess they used to clean during the lockdown. The thought of
+              doing something which can reduce the clutter and make the space clean and calm came while
+              organizing their own house.
             </p>
             <p>
-              This thought of changing your cluttered wardrobe into a tidy place made us feel so happy. She with
-              her mother’s help efficiently used extra clothes to donate to those who are in need and to organize and
-              style their wardrobes in a better way. Her continuous efforts in changing her living place to a neat and
-              happy place paid off when people started taking notes and asking her for organizing tips. In addition,
-              requested her guidance in setting up closets and different rooms at their homes. The Demand and
-              acceptance from people made her initiate the idea of “My Happy Place”, in assisting them in creating
-              their own Happy House.
+              This hard work, Innovative ideas, dedication towards organizing,
+              and tidying up brought them to start their little start-up “My Tidy Wardrobe”.
+              Changing your cluttered wardrobe into a tidy one and making your place a neat space makes
+              Reena have a sense of satisfaction and destressing. She with her mother’s support has
+              efficiently organized and styled their wardrobes in a better way and donated the extra clothes
+              to the ones in need.
+            </p>
+            <p>
+              Her continuous efforts in changing her living place to a clutter-free and
+              lively space paid off when people started taking notes and asking her for organizing tips. In
+              addition, requested her guidance in setting up closets and kitchens. The Demand and
+              acceptance from people made her initiate the idea of “My Tidy Wardrobe”, in assisting them
+              in creating their own Happy Home.
             </p>
           </div>
         </div>

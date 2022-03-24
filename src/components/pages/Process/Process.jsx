@@ -3,9 +3,18 @@ import React from 'react'
 const Process = () => {
   return (
     <>
-      <div className="row mx-0 my-md-5 my-2">
-        <div className="col-12">
-          <h1 className='my-md-5 my-2'>Process</h1>
+      <div className="row mx-0">
+        <div className='col-md-6 col-12 p-md-5 p-2'>
+          <img
+            className="card-img-top mx-auto img-fluid img-circle d-block"
+            src={require(`../../../assets/images/7.png`)}
+            alt="avatar"
+            height='300px'
+            width='300px'
+          />
+        </div>
+        <div className="col-md-6 text-center col-12 p-md-5 p-2 align-items-center">
+          <h1 className='text-center my-4'>Our Process</h1>
           <p>
             As a Stylist, this is a big one for me. When I’m going through a client’s wardrobe, we’re not in there
             for the sole purpose of decluttering. There are other factors at play, we’re building a style and finding
@@ -22,7 +31,7 @@ const Process = () => {
           </p>
         </div>
         <div className="row mx-0">
-          <div className="col-12 process-section">
+          <div className="col-12 p-0 process-section">
             <ul>
               <li>
                 Book an appointment
