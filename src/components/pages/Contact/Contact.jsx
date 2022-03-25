@@ -13,12 +13,12 @@ const Contact = () => {
         </div>
         <div className="col-md-6 col-12 p-5">
           <h1 className=''>Reach out to us!</h1>
-          <p>If you’re interested in working with Tidy Wardrobes on your next project, please contact us.</p>
-          <h6><i className="far fa-envelope me-3" /><span>tidywardrobes@gmail.com</span></h6>
+          <p>If you’re interested in working with Tidy Spaces on your next project, please contact us.</p>
+          <h6><i className="far fa-envelope me-3" /><span>tidyspaces@gmail.com</span></h6>
           <h6><i className="far fa-phone-alt me-3" /><span>8826172385</span></h6>
           <div className="d-flex mt-3 align-items-center">
             <span>Follow us: </span>
-            <i className="fab fa-facebook mx-2" />
+            <a href="" target="_blank"></a><i className="fab fa-facebook mx-2" />
             <i className="fab fa-instagram mx-2" />
           </div>
         </div>

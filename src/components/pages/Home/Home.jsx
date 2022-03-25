@@ -15,13 +15,11 @@ const Home = () => {
           />
           <div className="text-center my-5 py-md-5 py-3 row mx-0 justify-content-center">
             <div className="col-md-10 col-12">
-              <h1>Welcome to Tidy Wardrobes</h1>
-              <p>It’s hard to feel inspired by cluttered spaces and even harder to know how to get started on the road to reclaiming them. And since we’re all so busy these days, who has free time to allocate to organizing? We do!</p>
+              <h1>Welcome to Tidy Spaces</h1>
               <p>
-                Award-winning professional organizers, Tidy Nest, organizes your existing spaces to make them feel brand new. We appreciate how daunting it can feel when you’re facing a disorganized space full of kids’ toys, old clothes, or mountains of papers. But no matter how large or small a project, we simplify and stylize your space to make it more functional, practical and attractive.
-              </p>
-              <p>
-                While we have done jobs as far as Los Angeles, we most frequently work in Fairfield & Westchester Counties and New York City.  Click here to see some of our previous projects.
+                “Tidy Spaces” is truly a one-stop shop for your closet transformation. We execute
+                each step from the planning, de-cluttering, and organizing of your space to ensure a final
+                result that is nothing less than perfection.
               </p>
             </div>
           </div>

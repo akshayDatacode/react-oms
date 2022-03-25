@@ -26,7 +26,7 @@ const ToolBar = ({ drawerClickHandler }) => {
                 alt="First slide"
               /> */}
             <Link to='/'>
-              <h6 className="text-dark">LOGO</h6>
+              <h4 className="text-dark">Tidy Spaces</h4>
             </Link>
           </div>
           {/* This is for Logo and Nev Spaccing */}

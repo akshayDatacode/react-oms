@@ -49,17 +49,17 @@ export const servicesTypes = [
     img: 'kitchenIcon.png',
     types: [
       {
-        title: "Study Room",
+        title: "Storage Area",
         description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
         img: '12.png',
       },
       {
-        title: "Bedroom",
+        title: "Sink Area",
         description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
         img: '25.png',
       },
       {
-        title: "Kitchen",
+        title: "Cooking Area",
         description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
         img: '23.png',
       },
@@ -81,9 +81,9 @@ export const servicesTypes = [
         img: 'garden1.png',
       },
       {
-        title: "Commercial",
+        title: "Plant Maintenance",
         description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
-        img: 'garden2.png',
+        img: '16.png',
       },
     ]
   },
