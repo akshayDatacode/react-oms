@@ -1,7 +1,7 @@
 export const servicesTypes = [
   {
     name: 'Room Organization',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
+    description: 'A tidy room contributes to a healthy learning environment, and also, its the start of a more organized way of living. Children that learn how to keep their rooms mess- free are more likely to do better in school. Organizing your daily schedule and tasks allows you to concentrate on what needs to get done that day instead of being distracted by things around you.At night time, you can prioritize sleep and rest easy knowing it"s done.As a bonus, prioritizing enough sleep alleviates your stress.',
     img: 'roomIcon.png',
     types: [
       {
@@ -23,7 +23,7 @@ export const servicesTypes = [
   },
   {
     name: '(Wardrobe Organization) + (Sanitization)',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
+    description: 'There should be easy and quick access for all items and clothing. Everything must be visible and within reach.We help you to manage your clothes that can save your time and money.You will be able to effortlessly style yourself daily with relevant and eternally elegant outfits.',
     img: 'cupboard.png',
     types: [
       {
@@ -45,7 +45,7 @@ export const servicesTypes = [
   },
   {
     name: 'Kitchen Maintenance',
-    description: 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur,',
+    description: 'Pantry organization will help free up space. Additionally, this will help make your counter free of clutter. When you know what’s in your pantry, it’ll be easier for you to keep track of what you need and what you don’t. You no longer need to guess whether or not you have that ingredient in the kitchen. You will also enjoy cooking more. Sometimes, the reason you don’t want to cook in your kitchen is that it’s disorganized. Organize it, and you will be singing a different tune, especially when you know what you have in your pantry. With that, you will be able to try new recipes or create brand-new one’s for you and your family to enjoy.',
     img: 'kitchenIcon.png',
     types: [
       {
@@ -67,7 +67,7 @@ export const servicesTypes = [
   },
   {
     name: 'Garden Maintenance',
-    description: 'Restyling your terrace into a place to relax and rejuvenate amidst nature',
+    description: 'We help you to convert your balcony into a nature retreat and maintain your existing garden. We also help you to restyle your terrace into a place to relax and rejuvenate amidst nature. ',
     img: 'gardenIcon.png',
     types: [
       {

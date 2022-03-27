@@ -19,14 +19,14 @@ const ToolBar = ({ drawerClickHandler }) => {
           <div className="toolbar_toggle-button">
             <DrawerToggleButton clickButton={drawerClickHandler} />
           </div>
-          <div className="toolbar_logo">
-            {/* <img
-                className="logo_img "
-                src={require("../../assets/images/wow_logo.png")}
-                alt="First slide"
-              /> */}
+          <div className="toolbar_logo d-flex align-items-center">
+            <img
+              className="logo_img me-2"
+              src={require("../../../assets/images/logo.png")}
+              alt="First slide"
+            />
             <Link to='/'>
-              <h4 className="text-dark">Tidy Spaces</h4>
+              <h4 style={{ color: '#7784eb' }} className="mb-0 text-nowrap">Tidy Spaces</h4>
             </Link>
           </div>
           {/* This is for Logo and Nev Spaccing */}
@@ -44,6 +44,13 @@ const ToolBar = ({ drawerClickHandler }) => {
                 <Link to="/aboutus" spy={true} smooth={true}>
                   <span className={location.pathname === '/aboutus' && 'active border-bottom pb-2'}>
                     <i className="far fa-users me-2" />About Us
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link to="/products">
+                  <span className={location.pathname === '/products' && 'active border-bottom pb-2'}>
+                    <i className="far fa-cubes me-2" />Products
                   </span>
                 </Link>
               </li>

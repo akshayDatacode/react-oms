@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Process from '../Process/Process'
 import Services from './Services'
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [])
 
   return (
     <>
@@ -29,7 +32,7 @@ const Home = () => {
                 <div className="col-12 col-md-6 p-2 p-md-5">
 
                   <h1 className='text-center'>Our Services</h1>
-                  <p className='text-center'>While we have done jobs as far as Los Angeles, we most frequently work in Fairfield & Westchester Counties and New York City.  Click here to see some of our previous projects.</p>
+                  <p className='text-center'>We orgnaize every space in a home, from kids room and kitchen, to wardrobes and balconies. We also help you to de-clutter your office space and provide moving home services.</p>
                 </div>
                 <div className="col-12 col-md-6">
                   <img

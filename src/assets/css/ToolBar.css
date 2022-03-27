@@ -16,9 +16,9 @@
 }
 
 .logo_img {
-  width:200px;
-  height: 71px;
-  margin-left: 44%;
+  width: 50px;
+  height: 50px;
+  /* margin-left: 44%; */
 }
 
 .toolbar_logo a {
@@ -55,10 +55,7 @@
 @media (max-width: 760px) {
   .toolbar_navigation-items {
     display: none;
-  }
-  .logo_img{
-    margin-left:15%;
-    height:69px;
+    margin: 0;
   }
 }
 
