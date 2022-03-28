@@ -4,17 +4,16 @@ const BlogPost1 = () => {
   return (
     <div className='row mx-0 justify-content-center'>
       <div className="col-md-8 col-12 my-5">
-        <h1 className='my-5'>Benefits of having an Organized Wardrobe</h1>
+        <h1 className='my-5'>Why is it important to organize a Wardrobe?</h1>
         <img
           className="card-img mx-auto my-5 img-fluid img-circle d-block"
           src={require("../../../assets/images/blog1-header.png")}
           alt="avatar"
         />
-        <h5>When does your wardrobe need to be organized?</h5>
         <ul>
           <li>
             When your wardrobe or its contents start to make you feel any kind of negativity, frustration,
-            stress, overwhelm, or anxiety, it’s time to take action.
+            stress, overwhelm, or anxiety, it’s time to take an action.
           </li>
           <li>
             These feelings can be caused by a number of scenarios, for example, disorder, too much

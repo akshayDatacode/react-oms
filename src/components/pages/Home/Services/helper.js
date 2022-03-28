@@ -92,48 +92,45 @@ export const servicesTypes = [
 
 export const products = [
   {
-    name: '',
+    name: 'Foldable Lingrie Organizer',
     img: '50.png',
   }, {
-    name: '',
+    name: 'Foldable linen Storage basket',
     img: '51.png',
   }, {
-    name: '',
+    name: 'Luxury makeup organizer',
     img: '52.png',
   },
   {
-    name: '',
+    name: 'Kitchen set of jars',
     img: '53.png',
   }, {
-    name: '',
+    name: 'Kitchen storage containers',
     img: '54.png',
   }, {
-    name: '',
+    name: 'Makeup Organizer',
     img: '55.png',
   }, {
-    name: '',
+    name: 'Scarf hanger holder',
     img: '56.png',
   }, {
-    name: '',
+    name: 'Shoe-organizer',
     img: '57.png',
   }, {
-    name: '',
+    name: 'Socks and Napkin organizer',
     img: '58.png',
   },
   {
-    name: '',
+    name: 'Stackable Wardrobe storage Box',
     img: '59.png',
   }, {
-    name: '',
+    name: 'Storage jars',
     img: '60.png',
   }, {
-    name: '',
+    name: 'Wardrobe-Organizer-for-Underwear-Socks-and-Ties-',
     img: '61.png',
   }, {
-    name: '',
+    name: 'Washable Foldable Drawer Organizer',
     img: '62.png',
-  }, {
-    name: '',
-    img: '63.png',
   },
 ]

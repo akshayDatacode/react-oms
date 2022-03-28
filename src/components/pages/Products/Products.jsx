@@ -10,7 +10,7 @@ const Products = () => {
       <div className="row mx-0 my-5">
         {
           products && products.map((item, i) => (
-            <div className='col-md-4 col-6 p-3' key={i}>
+            <div className='col-md-4 col-6 p-3 product-card' key={i}>
               <img
                 className="border border-bottom-0 card-img-top mx-auto img-fluid img-circle d-block"
                 src={require(`../../../assets/images/products/${item.img}`)}
@@ -18,7 +18,7 @@ const Products = () => {
                 height='300px'
                 width='300px'
               />
-              <h6 className='p-2 bg-dark text-light rounded-bottom'>Item Name</h6>
+              <h6 className='p-2 bg-dark text-light rounded-bottom'>{item.name}</h6>
             </div>
           ))
         }
