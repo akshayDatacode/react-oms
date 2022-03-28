@@ -32,36 +32,34 @@ const Process = () => {
         </div>
         <div className="row mx-0">
           <div className="col-12 p-0 process-section">
+            <h5>Book an appointment</h5>
+            <p>
+              <b>Consultation</b> (Sometimes clients like doing the work themselves and just need the blueprint
+              to do it. We can provide you with plans, product recommendations, and guidelines for your
+              projects without any on-site assistance)
+            </p>
+            <p>
+              <b>Project Execution</b> (From random piles of clothes to systemized shelves, this is where we
+              shine. Not only do our organizational systems make your space look more appealing, but they
+              can also reduce stress and free up more of your time)
+            </p>
             <ul>
               <li>
-                Book an appointment
+                Unpacking (If you’re moving into a new home, you’re often focused on getting
+                unpacked; not on neatly arranging your possessions and installing organizational
+                systems. But that’s exactly what we focus on for you)
               </li>
               <li>
-                Consultation (Sometimes clients like doing the work themselves and just need the blueprint to
-                do it. We can provide you with plans, product recommendations, and guidelines for your
-                projects without any on-site assistance)
+                De-cluttering (After our work is done, we can arrange periodic visits to help maintain
+                your tidy spaces and ensure you get the most from your experience with us)
               </li>
               <li>
-                Execution (From random piles of clothes to systemized shelves, this is where we shine. Not
-                only do our organizational systems make your space look more appealing, but they can also
-                reduce stress and free up more of your time)
+                De-papering (After our work is done, we can arrange periodic visits to help maintain
+                your tidy spaces and ensure you get the most from your experience with us)
               </li>
               <li>
-                Unpacking (If you’re moving into a new home, you’re often focused on getting unpacked; not
-                on neatly arranging your possessions and installing organizational systems. But that’s exactly
-                what we focus on for you)
-              </li>
-              <li>
-                De-cluttering (After our work is done, we can arrange periodic visits to help maintain your
-                tidy spaces and ensure you get the most from your experience with us)
-              </li>
-              <li>
-                Maintaining (After our work is done, we can arrange periodic visits to help maintain your tidy
-                spaces and ensure you get the most from your experience with us)
-              </li>
-              <li>
-                De-papering (After our work is done, we can arrange periodic visits to help maintain your
-                Tidy spaces and ensure you get the most from your experience with us)
+                Maintenance (After our work is done, we can arrange periodic visits to help maintain
+                your tidy spaces and ensure you get the most from your experience with us)
               </li>
             </ul>
           </div>

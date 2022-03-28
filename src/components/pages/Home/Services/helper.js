@@ -88,3 +88,52 @@ export const servicesTypes = [
     ]
   },
 ]
+
+
+export const products = [
+  {
+    name: '',
+    img: '50.png',
+  }, {
+    name: '',
+    img: '51.png',
+  }, {
+    name: '',
+    img: '52.png',
+  },
+  {
+    name: '',
+    img: '53.png',
+  }, {
+    name: '',
+    img: '54.png',
+  }, {
+    name: '',
+    img: '55.png',
+  }, {
+    name: '',
+    img: '56.png',
+  }, {
+    name: '',
+    img: '57.png',
+  }, {
+    name: '',
+    img: '58.png',
+  },
+  {
+    name: '',
+    img: '59.png',
+  }, {
+    name: '',
+    img: '60.png',
+  }, {
+    name: '',
+    img: '61.png',
+  }, {
+    name: '',
+    img: '62.png',
+  }, {
+    name: '',
+    img: '63.png',
+  },
+]
