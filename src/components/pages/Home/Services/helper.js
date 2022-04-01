@@ -92,6 +92,16 @@ export const servicesTypes = [
 
 export const products = [
   {
+    name: 'Kitchen set of jars',
+    img: '53.png',
+  }, {
+    name: 'Kitchen storage containers',
+    img: '54.png',
+  }, {
+    name: 'Makeup Organizer',
+    img: '55.png',
+  },
+  {
     name: 'Foldable Lingrie Organizer',
     img: '50.png',
   }, {
@@ -102,15 +112,6 @@ export const products = [
     img: '52.png',
   },
   {
-    name: 'Kitchen set of jars',
-    img: '53.png',
-  }, {
-    name: 'Kitchen storage containers',
-    img: '54.png',
-  }, {
-    name: 'Makeup Organizer',
-    img: '55.png',
-  }, {
     name: 'Scarf hanger holder',
     img: '56.png',
   }, {

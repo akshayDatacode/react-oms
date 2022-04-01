@@ -53,7 +53,7 @@ const Aboutus = () => {
             </p>
             <p>
               This hard work, Innovative ideas, dedication towards organizing,
-              and tidying up brought them to start their little start-up “My Tidy Wardrobe”.
+              and tidying up brought them to start their little start-up “Tidy Spaces”.
               Changing your cluttered wardrobe into a tidy one and making your place a neat space makes
               Reena have a sense of satisfaction and destressing. She with her mother’s support has
               efficiently organized and styled their wardrobes in a better way and donated the extra clothes
@@ -63,7 +63,7 @@ const Aboutus = () => {
               Her continuous efforts in changing her living place to a clutter-free and
               lively space paid off when people started taking notes and asking her for organizing tips. In
               addition, requested her guidance in setting up closets and kitchens. The Demand and
-              acceptance from people made her initiate the idea of “My Tidy Wardrobe”, in assisting them
+              acceptance from people made her initiate the idea of “Tidy Spaces”, in assisting them
               in creating their own Happy Home.
             </p>
           </div>
